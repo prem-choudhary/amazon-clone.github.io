@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="flex justify-between items-center h-16">
+          <h1 class="text-2xl font-bold text-orange-600">Community</h1>
+
+          <ul class="hidden md:flex gap-8 font-semibold">
+            <li><a href="#" class="hover:text-orange-500">Home</a></li>
+            <li><a href="#" class="hover:text-orange-500">About</a></li>
+            <li><a href="#" class="hover:text-orange-500">Gallery</a></li>
+            <li><a href="#" class="hover:text-orange-500">Events</a></li>
+            <li><a href="#" class="hover:text-orange-500">Contact</a></li>
+          </ul>
+
+          <button
+            class="bg-orange-500 text-white px-5 py-2 rounded-lg hover:bg-orange-600"
+          >
+            Join Now
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero flex items-center justify-center text-center text-white"
+    >
+      <div class="bg-black/60 p-10 rounded-2xl">
+        <h2 class="text-5xl font-bold mb-5">Welcome To Our Community</h2>
+
+        <p class="text-lg mb-6">
+          Connecting people, culture and traditions together.
+        </p>
+
+        <button
+          class="bg-orange-500 px-8 py-3 rounded-lg text-lg hover:bg-orange-600"
+        >
+          Explore More
+        </button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="py-20 bg-white">
+      <div
+        class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-10 items-center"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2070&auto=format&fit=crop"
+          class="rounded-2xl shadow-lg"
+        />
+
+        <div>
+          <h2 class="text-4xl font-bold mb-5 text-orange-600">About Us</h2>
+
+          <p class="text-gray-600 leading-8">
+            This website is designed to connect members of the community, share
+            cultural events, provide announcements and build a strong social
+            network together.
+          </p>
+
+          <button
+            class="mt-6 bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="text-center mb-14">
+          <h2 class="text-4xl font-bold text-orange-600">Our Services</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-10">
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:scale-105 duration-300"
+          >
+            <h3 class="text-2xl font-bold mb-4">Community Events</h3>
+
+            <p class="text-gray-600">
+              Organizing cultural and social events regularly.
+            </p>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:scale-105 duration-300"
+          >
+            <h3 class="text-2xl font-bold mb-4">Education Support</h3>
+
+            <p class="text-gray-600">
+              Helping students with education and career guidance.
+            </p>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:scale-105 duration-300"
+          >
+            <h3 class="text-2xl font-bold mb-4">Social Activities</h3>
+
+            <p class="text-gray-600">
+              Building strong relationships among community members.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-orange-600">Gallery</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <img
+            src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2070&auto=format&fit=crop"
+            class="rounded-2xl h-72 w-full object-cover shadow-lg"
+          />
+
+          <img
+            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2070&auto=format&fit=crop"
+            class="rounded-2xl h-72 w-full object-cover shadow-lg"
+          />
+
+          <img
+            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop"
+            class="rounded-2xl h-72 w-full object-cover shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-5">
+        <div class="text-center mb-10">
+          <h2 class="text-4xl font-bold text-orange-600">Contact Us</h2>
+        </div>
+
+        <form class="bg-white p-10 rounded-2xl shadow-lg">
+          <div class="grid md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="border p-4 rounded-lg outline-none focus:border-orange-500"
+            />
+
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="border p-4 rounded-lg outline-none focus:border-orange-500"
+            />
+          </div>
+
+          <textarea
+            rows="5"
+            placeholder="Your Message"
+            class="w-full border p-4 rounded-lg mt-6 outline-none focus:border-orange-500"
+          ></textarea>
+
+          <button
+            class="mt-6 bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8">
+      <div class="max-w-7xl mx-auto px-5 text-center">
+        <h2 class="text-2xl font-bold mb-3">Community Website</h2>
+
+        <p class="text-gray-400">© 2026 All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
